@@ -83,7 +83,7 @@
     "rebass": "^4.0.7",
     "redux-localstorage-simple": "^2.3.1",
     "serve": "^11.3.0",
-    "start-server-and-test": "^1.11.0",
+    "start-server-and-test": "^1.11.6",
     "styled-components": "^4.2.0",
     "typescript": "^3.8.3",
     "use-count-up": "^2.2.5",
@@ -97,7 +97,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
